@@ -14,7 +14,7 @@
         android:textStyle="bold"
         android:background="#92F3C1"
         android:textColor="#ffffff"
-        android:text="진 료 안 내"/>
+        android:text="안 녕 하 슈"/>
     <TableRow android:padding="10dp">
         <TextView android:text="평일"/>
         <TextView android:text="AM 10:00 ~ PM 06:00" android:layout_span="2"/>
