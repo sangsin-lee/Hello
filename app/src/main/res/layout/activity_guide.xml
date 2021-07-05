@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="*"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".GuideActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:background="#92F3C1"
+        android:textColor="#ffffff"
+        android:text="진 료 안 내"/>
+    <TableRow android:padding="10dp">
+        <TextView android:text="평일"/>
+        <TextView android:text="AM 10:00 ~ PM 06:00" android:layout_span="2"/>
+    </TableRow>
+    <TableRow android:padding="10dp">
+        <TextView android:text="토요일"/>
+        <TextView android:text="AM 10:00 ~ PM 01:00" android:layout_span="2"/>
+    </TableRow>
+    <TableRow android:padding="10dp">
+        <TextView android:text="점심"/>
+        <TextView android:text="AM 12:30 ~ PM 02:00" android:layout_span="2"/>
+    </TableRow>
+    <TableRow android:padding="10dp">
+        <TextView android:text="일~공휴일"/>
+        <TextView android:text="휴진" android:layout_span="2"/>
+    </TableRow>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:background="#92F3C1"
+        android:textColor="#ffffff"
+        android:text="오 시 는 길"/>
+    <TableRow android:padding="10dp" android:gravity="center_vertical">
+        <ImageView android:src="@drawable/ic_map" android:layout_height="50dp"/>
+        <TextView android:text="[주소]\n서울시 강남구 광현로20" android:layout_span="2"/>
+    </TableRow>
+    <TableRow android:padding="10dp" android:gravity="center_vertical">
+        <ImageView android:src="@drawable/ic_subway" android:layout_height="50dp"/>
+        <TextView android:text="[지하철 이용]\n3호선 일원역에 4번 출구 500m" android:layout_span="2"/>
+    </TableRow>
+    <TableRow android:padding="10dp" android:gravity="center_vertical">
+        <ImageView android:src="@drawable/ic_bus" android:layout_height="50dp"/>
+        <TextView android:text="[버스 이용]\n301, 2022, 3419, 4319" android:layout_span="2"/>
+    </TableRow>
+</TableLayout>
